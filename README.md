@@ -1,24 +1,22 @@
-# README
+# React Rails Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Install Dependencies**
 
-Things you may want to cover:
+```shell
+bundle install
+yarn install
+```
 
-* Ruby version
+**Start the Dev server**
 
-* System dependencies
+This is technically optional, but it helps by hot reloading changes to JS.
 
-* Configuration
+```shell
+yarn start
+```
 
-* Database creation
+**Start the Rails server** (in a separate terminal window)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+rails server
+```
